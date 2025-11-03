@@ -15,7 +15,7 @@ yazınız? Fonksiyonu yazarken temel kuyruk, yığın ve ağaç işlemlerini kul
 // ikili arama ağacı = insertNode, deleteNode, findNode, inOrderDisplay
 
 
-///*** SORUYA BAŞLAMADAN LÜTFEN İLGİLİ SATIRI OKUYUNUZ ***///
+///*** SORUYA BAŞLAMADAN LÜTFEN İLGİLİ SATIRI OKUYUNUZ ***/// // SATIR 82 //
 
 // öğrenci yapısının tanımı
 struct Ogrenci { 
@@ -133,4 +133,5 @@ while(IsEmpty(geciciYigin) == false){  // geçici yığın boşalana kadar dön
     yigin.push(geciciYigin.pop());     // fizik öğrencilerini tekrar orijinal yığına geri ekle
 }
 delete geciciYigin;    // geçici yığını sil
+
 };
